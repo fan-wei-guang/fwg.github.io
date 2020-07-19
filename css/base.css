@@ -1,0 +1,49 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-size: 12px;
+	font-family: tahoma, arial, "Hiragino Sans GB", "宋体", sans-serif;
+	color: #6c6c6c;
+	background-color: #f1f1f1;
+	margin: 0 auto;
+	padding: 0;
+}
+li,
+ul {
+	list-style: none;
+}
+h1,
+h2,
+h3 {
+	font-size: 100%;
+	font-weight:normal;
+}
+a {
+	color:#6c6c6c;
+	text-decoration:none;
+}
+input {
+	border: none;
+	outline:none;
+	font-size: 100%;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.clearfix:before,
+.clearfix:after {
+	content: '.';
+	height: 0;
+	line-height: 0;
+	display: block;
+	visibility: hidden;
+	clear: both;
+}
+.clearfix {
+	*zoom: 1;
+}
